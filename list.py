@@ -22,15 +22,15 @@
 # #     j=j+i
 # # print(j)
 
-a=[12,24,35,47,58]
-b= a[0]
+# a=[12,24,35,47,58]
+# b= a[0]
 
-for c in a:
+# for c in a:
     # Compare each number with the current largest number
-    if c < b:
-        b = c
+#     if c < b:
+#         b = c
 
-print("smallest number is:",b)
+# print("smallest number is:",b)
 
 
 
@@ -56,14 +56,20 @@ print("smallest number is:",b)
 # 2-> 
 # 3->
 
-l=[1,3,4,1,6,3,4,1,7,9,2,3,1,2,5,5]
-
-a=l[0]
+l=[1,1,1,2,3,4,2,3]
 
 for i in l:
-    b=0
-    if a==i:
-        b=b+1
+    cnt=0
+    for j in l:
+        if i==j:
+            cnt=cnt+1
+    
+    print(f"{i} in list is {cnt} times")       
+# start;end;inc/dec
 
-print(b)
+# for(int i =1;i<=10;i++)
+# {
+#     printf(i);
+# }
 
+# 1 2 3 4 5 6 7 8 9 10 
