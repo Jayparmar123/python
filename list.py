@@ -56,15 +56,15 @@
 # 2-> 
 # 3->
 
-l=[1,1,1,2,3,4,2,3]
+# l=[1,1,1,2,3,4,2,3]
 
-for i in l:
-    cnt=0
-    for j in l:
-        if i==j:
-            cnt=cnt+1
+# for i in l:
+#     cnt=0
+#     for j in l:
+#         if i==j:
+#             cnt=cnt+1
     
-    print(f"{i} in list is {cnt} times")       
+#     print(f"{i} in list is {cnt} times")       
 # start;end;inc/dec
 
 # for(int i =1;i<=10;i++)
@@ -73,3 +73,9 @@ for i in l:
 # }
 
 # 1 2 3 4 5 6 7 8 9 10 
+import copy
+l1=[1,2,3,4]
+l2=[]
+l2=copy.copy(l1)
+
+print(l2)
